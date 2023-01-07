@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    left: 0; right: 0;
+}
+
+::selection{
+    background: rgb(41, 117, 6);
+    color: black;
+}
+
+body{
+    background: #fff;
+}
+
+/* my full website section starts here */
+
+.full_website{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow-x: hidden;
+    background: lightgrey;
+}
+
+/* my full website section ends here */
+
+
+/* Heading section starts here */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background: linear-gradient(to left, lightskyblue,lightblue,lightseagreen,lightskyblue,lightblue,lightseagreen);
+    padding: 25px;
+    
+}
+
+.video video{
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 10px;
+    z-index: 1;
+    width: 100%;
+}
+
+.header{
+    color: black;
+}
+.header h1{
+    font-family: Vladimir Script;
+    font-weight: bold;
+    font-size: 3.2rem;
+    
+}
+
+nav{
+    margin-top: -30px;
+    margin-left: 60%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 10px;
+    
+}
+nav a:hover{
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Heading section starts here */
+
+/* about section starts here */
+.about_info{
+    background: #fff;
+    margin-top: 50px;
+    width: 40%;
+    padding: 10px;
+    margin: 4%;
+    box-shadow: 1px 1px 3px 1px black;
+    border-radius: 1%;
+}
+.about_info h1{
+    font-size: 2rem;
+}
+.about_image{
+    text-align: center;
+}
+
+.arrow{
+    font-size: 2.2rem;
+    margin-top: 120px;
+
+}
+
+/* about section ends here */
+
+
+/* games section starts here */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_info{
+    /* text-align: center; */
+    color: black;
+    margin-top: 50px;
+    margin-left: 35px;
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    transition: transform .5s ease;
+}
+.container_info:hover{
+    transform: scale(0.9);
+}
+.image img{
+    width: 100%;
+    height: 250px;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(15, 175, 0);
+}
+.btn:hover{
+    background: rgb(15, 175, 0);
+
+}
+
+/* games section ends here */
+
+/* contact us section starts here */
+
+.contact_form{
+    background: #fff;
+    width: 95%;
+    margin-top: 100px;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.contact_form h1{
+    font-size: 2rem;
+    
+}
+.contact_form .map{
+   margin-left: 58%;
+   margin-top: -45%;
+}
+.contact_form button{
+    padding: 15px;
+    background: lightgrey;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: transform .6s ease;
+}
+.contact_form button:hover{
+    background: rgb(167, 164, 164);
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+input{
+    background: lightgrey;
+    padding: 20px;
+    border: 1px lightgrey;
+    width: 50%;
+}
+textarea{
+    padding: 10px;
+    width: 50%;
+    background: lightgrey;
+    border: none;
+}
+::placeholder{
+    color: black;
+    background: lightgrey;
+}
+
+.contact_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.contact_info{
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    color: black;
+    margin-left: 30px;
+    border-radius: 2%;
+    transition: transform .5s ease;
+
+}
+.contact_info:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/* contact us section ends here */
+
+
+/* footer section starts here */
+
+.footer_content{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+}
+.footer_images{
+    margin-left: 500px;
+}
+
+.footer_images img{
+    padding: 5px;
+    transition: transform .3s ease;
+}
+.footer_images img:hover{
+    transform: scale(1.2);
+}
+
+.footer_info p{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: -290px;
+}
+.footer_info a{
+    color: crimson;
+    text-decoration: none;
+}
+.footer_info a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* footer section ends here */
+
+
+
+
+
+
+
